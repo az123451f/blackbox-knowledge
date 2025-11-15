@@ -1,0 +1,36 @@
+site_name: Black Box Knowledge Vault
+site_description: Offline-ready archive of human knowledge—add anything useful!
+repo_url: https://github.com/az123451f/blackbox-knowledge
+theme:
+  name: material
+  features:
+    - navigation.sections
+    - navigation.expand
+    - search.suggest
+    - search.highlight
+  palette:
+    primary: green
+    accent: lime
+nav:
+  - Home: index.md
+  - Survival: survival/index.md
+  - Science: science/index.md
+  - DIY: diy/index.md
+  - Health: health/index.md
+  - Culture: culture/index.md
+  - Contribute: contribute.md
+plugins:
+  - search
+  - awesome-pages  # For auto-folder organization
+markdown_extensions:
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - attr_list
+  - md_in_html
+  - admonition
+  - toc:
+      permalink: true
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/az123451f/blackbox-knowledge
