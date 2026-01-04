@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI-Powered File Compressor</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>AI-Powered File Compressor</h1>
+            <p>Compress any file to a fraction of its original size using advanced AI-inspired algorithms</p>
+        </header>
+        
+        <main>
+            <div class="card">
+                <h2>Compress Files</h2>
+                <div class="upload-area" id="compress-area">
+                    <p>Drag & drop files here or click to select</p>
+                    <input type="file" id="compress-input" multiple>
+                </div>
+                <button id="compress-btn" class="action-btn">Compress Files</button>
+            </div>
+            
+            <div class="card">
+                <h2>Decompress Files</h2>
+                <div class="upload-area" id="decompress-area">
+                    <p>Drag & drop compressed files here or click to select</p>
+                    <input type="file" id="decompress-input" accept=".aicomp">
+                </div>
+                <button id="decompress-btn" class="action-btn">Decompress Files</button>
+            </div>
+            
+            <div class="progress-container">
+                <div class="progress-bar" id="progress-bar">
+                    <div class="progress-fill" id="progress-fill"></div>
+                </div>
+                <div id="progress-text">Ready</div>
+            </div>
+            
+            <div class="results" id="results"></div>
+        </main>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

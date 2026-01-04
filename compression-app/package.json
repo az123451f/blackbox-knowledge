@@ -1,0 +1,27 @@
+{
+  "name": "ai-file-compressor",
+  "version": "1.0.0",
+  "description": "An AI-powered file compression tool that achieves extreme compression ratios",
+  "main": "compressor.py",
+  "scripts": {
+    "start": "python3 compressor.py",
+    "test": "echo \"Testing compression functionality\" && python3 compressor.py compress sample.txt && echo \"Compression test completed\""
+  },
+  "keywords": [
+    "compression",
+    "ai",
+    "file-compression",
+    "data-compression",
+    "web-tool"
+  ],
+  "author": "AI File Compressor",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-repo/ai-file-compressor.git"
+  },
+  "bugs": {
+    "url": "https://github.com/your-repo/ai-file-compressor/issues"
+  },
+  "homepage": "https://github.com/your-repo/ai-file-compressor#readme"
+}
